@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "lastSeen": "2019-08-26T16:32:49.926Z",
+    "name": "Karli Macejkovic",
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/badlittleduck/128.jpg",
+    "postCount": 4,
+    "commentCount": 4
+  },
+  {
+    "id": "2",
+    "lastSeen": "2019-08-26T18:47:46.095Z",
+    "name": "Aurelio Welch I",
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/uxalex/128.jpg",
+    "postCount": 7,
+    "commentCount": 71
+  },
+  {
+    "id": "3",
+    "lastSeen": "2019-08-26T17:55:24.763Z",
+    "name": "Yvonne Wilkinson",
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/pixage/128.jpg",
+    "postCount": 25,
+    "commentCount": 20
+  },
+  {
+    "id": "4",
+    "lastSeen": "2019-08-26T19:22:40.276Z",
+    "name": "Yadira Schaden",
+    "avatar": "https://randomuser.me/api/portraits/women/70.jpg",
+    "postCount": 60,
+    "commentCount": 61
+  },
+  {
+    "id": "5",
+    "createdAt": "2019-08-27T00:47:29.720Z",
+    "name": "Annamarie Nader",
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/0therplanet/128.jpg",
+    "postCount": 30,
+    "commentCount": 31
+  }
+]
