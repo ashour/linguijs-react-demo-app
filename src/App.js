@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Trans } from '@lingui/macro';
 import './App.css';
 import User from './components/User';
 import Header from './components/Header';
@@ -37,7 +38,7 @@ function App() {
 
         <main role="main" className="has-mb-1">
           <h2 className="is-size-4 has-mb-1">
-            Top {USER_COUNT} Active Users
+            <Trans>Top {USER_COUNT} Active Users</Trans>
           </h2>
 
           {isLoading
