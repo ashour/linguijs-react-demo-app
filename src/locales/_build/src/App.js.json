@@ -1,0 +1,10 @@
+{
+  "Top {USER_COUNT} Active Users": {
+    "origin": [
+      [
+        "src/App.js",
+        42
+      ]
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Last seen {0,date,date0}": {
+    "origin": [
+      [
+        "src/components/User.js",
+        19
+      ]
+    ]
+  },
+  "{0, plural, =0 {No posts yet} one {# post} other {# posts}}": {
+    "origin": [
+      [
+        "src/components/User.js",
+        31
+      ]
+    ]
+  },
+  "{0, plural, =0 {No comments yet} one {# comment} other {# comments}}": {
+    "origin": [
+      [
+        "src/components/User.js",
+        40
+      ]
+    ]
+  }
+}

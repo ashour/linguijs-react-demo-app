@@ -1,0 +1,47 @@
+{
+  "A forum for all things old TV": {
+    "translation": "Un forum pour tout ce qui est vieux téléviseur",
+    "origin": [
+      [
+        "src/components/Header.js",
+        11
+      ]
+    ]
+  },
+  "Last seen {0,date,date0}": {
+    "translation": "Vu pour la dernière fois {0,date,date0}",
+    "origin": [
+      [
+        "src/components/User.js",
+        19
+      ]
+    ]
+  },
+  "Top {USER_COUNT} Active Users": {
+    "translation": "Top {USER_COUNT} des utilisateurs actifs",
+    "origin": [
+      [
+        "src/App.js",
+        42
+      ]
+    ]
+  },
+  "{0, plural, =0 {No comments yet} one {# comment} other {# comments}}": {
+    "translation": "{0, plural, =0 {Aucun commentaire pour l'instant} one {# commentaire} other {# commentaires}}",
+    "origin": [
+      [
+        "src/components/User.js",
+        40
+      ]
+    ]
+  },
+  "{0, plural, =0 {No posts yet} one {# post} other {# posts}}": {
+    "translation": "{0, plural, =0 {Pas encore de messages} one {# post} other {# posts}}",
+    "origin": [
+      [
+        "src/components/User.js",
+        31
+      ]
+    ]
+  }
+}

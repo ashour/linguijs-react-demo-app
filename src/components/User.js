@@ -1,4 +1,5 @@
 import React from 'react';
+import { Trans, DateFormat, Plural } from '@lingui/macro';
 
 function User({ user }) {
   return (
@@ -14,16 +15,34 @@ function User({ user }) {
           <h3 className="is-size-5">{user.name}</h3>
 
           <p>
-            <small>Last seen {user.lastSeen}</small>
+            <small>
+              <Trans>
+                Last seen{' '}
+                <DateFormat
+                  value={user.lastSeen}
+                  format={{ weekday: 'short', hour: 'numeric', minute: 'numeric' }}
+                />
+              </Trans>
+            </small>
           </p>
 
           <div className="tags">
             <span className="tag is-light">
-              {user.postCount} posts
+              <Plural
+                value={user.postCount}
+                _0="No posts yet"
+                one="# post"
+                other="# posts"
+              />
             </span>
 
             <span className="tag is-light">
-              {user.commentCount} comments
+              <Plural
+                value={user.commentCount}
+                _0="No comments yet"
+                one="# comment"
+                other="# comments"
+              />
             </span>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Trans } from '@lingui/macro';
 
 function Header() {
   return (<>
@@ -7,7 +8,9 @@ function Header() {
     </h1>
 
     <p className="subtitle">
-      A forum for all things old TV
+      <Trans>
+        A forum for all things old TV
+      </Trans>
     </p>
   </>);
 }

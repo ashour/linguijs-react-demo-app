@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Trans } from '@lingui/macro';
+
 import './App.css';
 import User from './components/User';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import LanguageSelector from './components/LanguageSelector';
 
 const USER_COUNT = 5;
 const USER_DATA_URL = '/data/users.json';
 
-function App() {
+function App({ language, onLanguageChange }) {
   const [users, setUsers] = useState({});
 
   const [isLoading, setIsLoading] = useState(true);
@@ -33,6 +35,13 @@ function App() {
         <div className="columns is-vcentered">
           <div className="column">
             <Header />
+
+            <div className="column is-narrow">
+              <LanguageSelector
+                language={language}
+                onChangeLangage={onLanguageChange}
+              />
+            </div>
           </div>
         </div>
 
